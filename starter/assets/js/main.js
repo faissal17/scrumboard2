@@ -153,3 +153,7 @@ function updateTask() {
     afficherData();
     $("#modal").modal("hide");
 }
+function videinput() {
+    document.getElementById("modal").reset();
+    // document.forms["modalo"].reset();
+}
